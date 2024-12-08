@@ -1,11 +1,11 @@
 const express = require("express");
-const expressLayouts = require("express-ejs-layouts");
+// const expressLayouts = require("express-ejs-layouts");
 
 const { body, validationResult, check } = require("express-validator");
 const methodOverride = require("method-override");
 
 require("./utils/db");
-const Contact = require("./model/contact");
+// const Contact = require("./model/contact");
 const Event = require("./model/event");
 
 const session = require("express-session");
