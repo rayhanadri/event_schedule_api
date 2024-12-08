@@ -1,12 +1,17 @@
-port used default = 8000
 
-available route
+# Event Schedule API
 
-show list of events
-(GET) http://localhost:8000/api/v1/list
+API for scheduling various events. Created on Node.JS back-end.
 
-search event by name or description
-(GET) http://localhost:8000/api/v1/search?key=comic
+Still Work In Progress (WIP)
 
-add new event
-(POST) http://localhost:8000/api/v1/addEvent
+
+## API Route
+Show list of events
+    (GET) http://localhost:8000/api/v1/list
+
+Search event by name or description
+    (GET) http://localhost:8000/api/v1/search?key=comic
+
+Sdd new event
+    (POST) http://localhost:8000/api/v1/addEvent
