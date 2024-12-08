@@ -77,6 +77,7 @@ app.post("/api/v1/addEvent", async (req, res) => {
     //
     // console.log(req.body); // Log the body for debugging
     console.log("Event name:", eventName);
+    // console.log(req.body);
 
     const existingEvent = await Event.findOne({
       name: { $regex: new RegExp("^" + eventName + "$", "i") }, // Case-insensitive

@@ -16,7 +16,7 @@ const Event =  mongoose.models.Event || mongoose.model("Event", {
   eventCategories: {
     type: [String],
   },
-  UrlInfo: {
+  urlInfo: {
     type: String,
   },
   city: {
