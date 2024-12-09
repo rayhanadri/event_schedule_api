@@ -31,9 +31,13 @@ Still Work In Progress (WIP)
 
    (GET) `http://localhost:8000/api/v1/list`
    
-3. Search event by name or description
+2. Search event by name or description
 
    (GET) `http://localhost:8000/api/v1/search?key=comic`
+
+3. Search event by category
+
+   (GET) `http://localhost:8000/api/v1/category?category=cosplay`
    
 4. Add new event
 
